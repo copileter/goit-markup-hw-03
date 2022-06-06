@@ -72,10 +72,16 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+
 }
+
+.site-nav {
+  line-height: 16px;
+}
+
 
 .contacts-foot {
   font-style: normal;
@@ -207,7 +213,7 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%px;
+  line-height: 162%;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -219,6 +225,7 @@ button {
 
   background: #f5f4fa;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .filter button:hover,
@@ -238,6 +245,7 @@ button {
   letter-spacing: 0.06em;
 
   color: #212121;
+  margin-bottom: 4px;
 }
 
 .type-pic {
@@ -254,6 +262,8 @@ button {
 
 footer {
   background-color: rgba(47, 48, 58, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {
@@ -296,10 +306,17 @@ footer {
   display: flex;
 }
 
-.logo {
+.logo-header {
   padding-bottom: 0;
   padding: 24px 0 25px;
   margin-right: 93px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
 
 }
 
@@ -469,4 +486,8 @@ ul .first {
 
 .non-bottom {
   padding-bottom: 0;
+}
+
+.features-li {
+  width: 270px;
 }
